@@ -19,7 +19,7 @@ const Read = new ReadLine();
 // Send Question
 Read.Question('What\'s your name?')
   .then((name) => {
-    console.log(`Hello ${name}`); // Print name
+    console.log(`Hello ${name}`);
   })
   .catch(console.error); // Error handler
 ```
@@ -39,7 +39,7 @@ const options = [
 // Send Question
 Read.Options('What\'s your favorite os?', options)
   .then((name) => {
-    console.log(`Your select: ${name}`); // Print name
+    console.log(`Your select: ${name}`);
   })
   .catch(console.error); // Error handler
 ```
@@ -54,7 +54,7 @@ const Read = new ReadLine();
 Read.KeyYN('Do you like this module?')
   .then((result) => {
     const print = result ? 'Nice! :)' : 'Oh, :(';
-    console.log(print); // Print name
+    console.log(print);
   })
   .catch(console.error); // Error handler
 ```
@@ -73,7 +73,7 @@ const Read = new ReadLine(options);
 Read.Question('What\'s your name?', 'name')
   .then(Read.Question('What\'s your lastname?', 'lastname'))
   .then((data) => {
-    console.log(`Hello ${data.name} ${data.lastname}`); // Print name
+    console.log(`Hello ${data.name} ${data.lastname}`);
   })
   .catch(console.error); // Error handler
 ```

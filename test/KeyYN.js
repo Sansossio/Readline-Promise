@@ -6,6 +6,6 @@ const Read = new ReadLine();
 Read.KeyYN('Do you like this module?')
   .then((result) => {
     const print = result ? 'Nice! :)' : 'Oh, :(';
-    console.log(print); // Print name
+    console.log(print);
   })
   .catch(console.error); // Error handler

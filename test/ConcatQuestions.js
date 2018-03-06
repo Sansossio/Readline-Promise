@@ -10,6 +10,6 @@ const Read = new ReadLine(options);
 Read.Question('What\'s your name?', 'name')
   .then(Read.Question('What\'s your lastname?', 'lastname'))
   .then((data) => {
-    console.log(`Hello ${data.name} ${data.lastname}`); // Print name
+    console.log(`Hello ${data.name} ${data.lastname}`);
   })
   .catch(console.error); // Error handler
