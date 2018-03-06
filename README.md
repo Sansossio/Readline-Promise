@@ -1,4 +1,4 @@
-# Readline-Promise
+# Console readlines
 Console readline with promise
 
 ## What's ReadLine Promise?
@@ -6,14 +6,14 @@ Module to read console lines in a simple way and with promises
 
 ## How install?
 ```sh
-npm install --save readline-promise
+npm install --save readline-promises
 ```
 
 ## Examples
 Readline
 ```js
 // Import
-const ReadLine = require('readline-promise');
+const ReadLine = require('readline-promises');
 // Object
 const Read = new ReadLine();
 // Send Question
@@ -27,7 +27,7 @@ Read.Question('What\'s your name?')
 Options
 ```js
 // Import
-const ReadLine = require('readline-promise');
+const ReadLine = require('readline-promises');
 // Object
 const Read = new ReadLine();
 // Options
@@ -47,7 +47,7 @@ Read.Options('What\'s your favorite os?', options)
 Option [y/n]
 ```js
 // Import
-const ReadLine = require('readline-promise');
+const ReadLine = require('readline-promises');
 // Object
 const Read = new ReadLine();
 // Send Question
@@ -62,7 +62,7 @@ Read.KeyYN('Do you like this module?')
 Concat questions
 ```js
 // Import
-const ReadLine = require('readline-promise');
+const ReadLine = require('readline-promises');
 // Options
 const options = {
   concat: true,
@@ -81,7 +81,7 @@ Read.Question('What\'s your name?', 'name')
 Concat all methods
 ```js
 // Import
-const ReadLine = require('readline-promise');
+const ReadLine = require('readline-promises');
 // Configs
 const options = {
   concat: true,
