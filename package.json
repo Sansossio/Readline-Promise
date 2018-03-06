@@ -1,0 +1,32 @@
+{
+  "name": "readline-promise",
+  "version": "1.0.0",
+  "description": "Console readline with promise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sansossio/Readline-Promise.git"
+  },
+  "keywords": [
+    "readline",
+    "promise",
+    "console"
+  ],
+  "author": "Julio Sansossio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sansossio/Readline-Promise/issues"
+  },
+  "homepage": "https://github.com/Sansossio/Readline-Promise#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.9"
+  },
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
